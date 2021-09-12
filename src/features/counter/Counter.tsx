@@ -23,7 +23,7 @@ export function Counter() {
   return (
     <div>
       <div className={styles.row}>
-        Trigger an Error if the value is larger than 10
+        Trigger an Error if the input value is larger than 10
       </div>
       <div className={styles.row}>
         Current state: {running? "running": "not running"}
